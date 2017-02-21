@@ -6,3 +6,25 @@
 #Build section and click on Add build step
 #Build Now
 Second Build!!
+
+
+Connecting jenkins to server
+creating directories on server 
+checking the changes through jenkins
+make a script on jenkins for automatically connecting and building
+
+sudo vim /etc/ssh/ssh_config
+/StrictHostKeyChecking no <--- ask
+sudo service ssh restart 
+sudo su jenkins
+ssh-keyen
+cd /var/lib/jenkins/.ssh/
+cat rsa<Tab>
+cd
+mkdir .ssh
+cd .ssh
+vim authorizedkey
+----paste cat rsa key----
+
+
+------------------ These changes should be reflected on deploying server---------------------------------
