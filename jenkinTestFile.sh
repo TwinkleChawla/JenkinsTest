@@ -27,4 +27,9 @@ vim authorizedkey
 ----paste cat rsa key----
 
 
+
 ------------------ These changes should be reflected on deploying server---------------------------------
+
+
+
+------------------------------------------------------------------Test 3----------------------------------------
